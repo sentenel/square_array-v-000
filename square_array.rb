@@ -6,4 +6,5 @@ def square_array(array)
   # sq_arr
 
   array.inject([]){|arr, n| arr << n}
+  binding.pry
 end
