@@ -3,5 +3,5 @@ def square_array(array)
   # array.each {|number| sq_arr << number**2}
   # sq_arr
 
-  array.inject([], :**)
+  array.inject([]){|arr, n| arr << n}
 end
